@@ -1,0 +1,37 @@
+
+ <com.example.sensormanagement.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:padding="5dip"
+android:orientation="vertical"
+android:background="#000000"
+>
+
+     <CheckedTextView 
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_marginLeft="5dp"
+  
+    android:drawableLeft="@drawable/plusminus"
+    android:gravity="center_vertical"
+    android:text="@string/hello_world"
+    android:textColor="@color/foreground1"
+    android:padding="10dp"
+    android:textSelectHandleLeft="@string/hello_world"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+<TextView
+android:id="@+id/textView2"	
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="center_vertical"
+android:ellipsize="marquee"
+android:singleLine="true"
+
+android:textAppearance="?android:attr/textAppearanceSmall"
+/>
+
+</com.example.sensormanagement.CheckableLinearLayout>

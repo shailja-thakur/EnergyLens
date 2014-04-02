@@ -1,0 +1,477 @@
+android.support.v7.widget.GridLayout:
+    static final boolean DEBUG
+    static final int MAX_SIZE
+    static final int DEFAULT_CONTAINER_MARGIN
+    static final int UNINITIALIZED_HASH
+    private static final int DEFAULT_ORIENTATION
+    private static final int DEFAULT_COUNT
+    private static final boolean DEFAULT_USE_DEFAULT_MARGINS
+    private static final boolean DEFAULT_ORDER_PRESERVED
+    private static final int DEFAULT_ALIGNMENT_MODE
+    private static final int ORIENTATION
+    private static final int ROW_COUNT
+    private static final int COLUMN_COUNT
+    private static final int USE_DEFAULT_MARGINS
+    private static final int ALIGNMENT_MODE
+    private static final int ROW_ORDER_PRESERVED
+    private static final int COLUMN_ORDER_PRESERVED
+    private static final int INFLEXIBLE
+    private static final int CAN_STRETCH
+    771:779:private void drawLine(android.graphics.Canvas,int,int,int,int,android.graphics.Paint)
+    782:783:private static void drawRect(android.graphics.Canvas,int,int,int,int,android.graphics.Paint)
+android.support.v7.widget.GridLayout$Axis:
+    private static final int NEW
+    private static final int PENDING
+    private static final int COMPLETE
+android.support.v7.widget.GridLayout$LayoutParams:
+    private static final int DEFAULT_WIDTH
+    private static final int DEFAULT_HEIGHT
+    private static final int DEFAULT_MARGIN
+    private static final int DEFAULT_ROW
+    private static final int DEFAULT_COLUMN
+    private static final int MARGIN
+    private static final int LEFT_MARGIN
+    private static final int TOP_MARGIN
+    private static final int RIGHT_MARGIN
+    private static final int BOTTOM_MARGIN
+    private static final int COLUMN
+    private static final int COLUMN_SPAN
+    private static final int ROW
+    private static final int ROW_SPAN
+    private static final int GRAVITY
+ca.uol.aig.fftpack.RealDoubleFFT_Mixed:
+    private static final double TWO_PI
+    private static final double SQRT_2
+    private static final double TAU_R
+    private static final double TAU_I
+com.dropbox.client2.DropboxAPI:
+    private static final int REVISION_DEFAULT_LIMIT
+    private static final int SEARCH_DEFAULT_LIMIT
+    private static final int UPLOAD_SO_TIMEOUT_MS
+com.dropbox.client2.DropboxAPI$ChunkedUploader:
+    private static final int DEFAULT_CHUNK_SIZE
+com.dropbox.client2.DropboxAPI$DropboxLink:
+    1123:1130:private DropboxAPI$DropboxLink(java.lang.String,boolean)
+com.dropbox.client2.android.AuthActivity:
+    static final java.lang.String EXTRA_INTERNAL_APP_KEY
+    static final java.lang.String EXTRA_INTERNAL_APP_SECRET
+    static final java.lang.String EXTRA_INTERNAL_WEB_HOST
+    static final java.lang.String EXTRA_INTERNAL_API_TYPE
+    private static final java.lang.String DEFAULT_WEB_HOST
+com.dropbox.client2.session.AbstractSession:
+    private static final java.lang.String API_SERVER
+    private static final java.lang.String CONTENT_SERVER
+    private static final java.lang.String WEB_SERVER
+    private static final int KEEP_ALIVE_DURATION_SECS
+    private static final int KEEP_ALIVE_MONITOR_INTERVAL_SECS
+    private static final int DEFAULT_TIMEOUT_MILLIS
+com.example.sensormanagement.AccelerometerGraphActivity:
+    private static final int HISTORY_SIZE
+com.example.sensormanagement.AcclData:
+    java.io.File FileHandle
+    java.io.File FileHandle1
+    java.io.FileOutputStream AcclWriter
+    java.io.FileOutputStream AcclWriter1
+    static java.io.DataOutputStream SDWriter
+    static java.io.DataOutputStream SDWriter1
+    static java.io.File myFile
+    android.app.NotificationManager mNM
+    java.lang.String value
+    int days
+    int hours
+    int min
+    java.util.Date date
+    281:299:void isMyServiceRunning()
+com.example.sensormanagement.AcclDataActivity:
+    static java.io.File myFile
+com.example.sensormanagement.AcclDataActivity$APRIndexFormat
+com.example.sensormanagement.AlarmService1:
+    android.app.NotificationManager mNM
+    android.content.Context c
+    static final java.lang.String Position
+    java.util.Date date
+    int hours
+    int min
+    int days
+    android.content.Context Cnxt
+    static java.io.File myFile
+    int k
+    int count
+    java.lang.String ssid
+    boolean state
+com.example.sensormanagement.AudioData:
+    short[] recordedAudioBuffer
+    double[] toTransform
+    boolean state
+com.example.sensormanagement.BatterActivity:
+    android.content.Context c
+    183:183:static synthetic android.content.BroadcastReceiver access$2(com.example.sensormanagement.BatterActivity)
+com.example.sensormanagement.BatterActivity$UnregisterTask
+com.example.sensormanagement.BoxUpload:
+    private static final java.lang.String TAG
+    private static final java.lang.String APP_KEY
+    private static final java.lang.String APP_SECRET
+    private static final java.lang.String ACCOUNT_PREFS_NAME
+    private static final java.lang.String ACCESS_KEY_NAME
+    private static final java.lang.String ACCESS_SECRET_NAME
+    private android.widget.Button mSubmit
+    private android.widget.LinearLayout mDisplay
+    private android.widget.Button mPhoto
+    private android.widget.Button mRoulette
+    private android.widget.ImageView mImage
+    private static final int NEW_PICTURE
+    private java.lang.String mCameraFileName
+    289:296:private void logOut()
+    382:386:private void clearKeys()
+com.example.sensormanagement.CallAudio:
+    short[] recordedAudioBuffer
+    short[] buffer
+    short[] bufferval
+    int bufferRead
+com.example.sensormanagement.DropBoxUpload:
+    private static final java.lang.String TAG
+    private static final java.lang.String APP_KEY
+    private static final java.lang.String APP_SECRET
+    private static final java.lang.String ACCOUNT_PREFS_NAME
+    private static final java.lang.String ACCESS_KEY_NAME
+    private static final java.lang.String ACCESS_SECRET_NAME
+    private android.widget.LinearLayout mDisplay
+    private android.widget.Button mRoulette
+    private android.widget.ImageView mImage
+    private static final int NEW_PICTURE
+com.example.sensormanagement.LightService:
+    android.content.Context c
+    android.content.Context Cnxt
+    static final java.lang.String Position
+com.example.sensormanagement.Logger:
+    private static final java.lang.String APP_TAG
+com.example.sensormanagement.MagService:
+    java.lang.String value
+com.example.sensormanagement.MainActivity:
+    private static final java.lang.String TAG
+    java.util.Date date
+    static final java.lang.String Position
+    android.app.PendingIntent pendingIntent3
+    android.app.PendingIntent pendingIntent4
+    android.app.AlarmManager alarmManager1
+    android.app.AlarmManager alarmManager2
+    android.app.AlarmManager alarmManager3
+    android.app.AlarmManager alarmManager4
+    android.app.AlarmManager alarmManager5
+    android.app.AlarmManager alarmManager6
+    android.widget.TextView batteryLevel
+    android.widget.TextView charging
+    android.widget.TextView collectstate
+    android.widget.EditText label
+    android.content.BroadcastReceiver batteryLevelReceiver
+    android.widget.Button log
+    int state
+    java.lang.String get_label
+    android.content.Intent myIntent2
+    android.content.Intent myIntent3
+com.example.sensormanagement.SeekBarPreferences:
+    private static final java.lang.String ANDROIDNS
+    private static final java.lang.String ROBOBUNNYNS
+    private static final int DEFAULT_VALUE
+com.example.sensormanagement.UploadPicture:
+    private com.dropbox.client2.DropboxAPI$Entry req
+    android.net.wifi.WifiManager wifiManager
+com.example.sensormanagement.WifiCellAcc:
+    java.io.File FileHandle1
+    java.io.FileOutputStream AcclWriter1
+    static java.io.DataOutputStream SDWriter1
+    java.lang.String ssid
+    int k
+    int count
+    android.net.NetworkInfo$State mobile
+com.example.sensormanagement.WifiData:
+    android.content.Context c
+    java.io.File FileHandle
+    java.io.File FileHandle1
+    java.io.FileOutputStream AcclWriter
+    java.io.FileOutputStream AcclWriter1
+    static java.io.DataOutputStream SDWriter
+    static java.io.DataOutputStream SDWriter1
+    java.util.Timer timer
+    android.content.Context Cnxt
+    static java.io.File myFile
+    android.net.NetworkInfo$State mobile
+    android.hardware.SensorManager SensorHandle
+    android.hardware.Sensor AcclHandle
+    140:159:private void showNotification()
+com.example.sensormanagement.WifiDataActivity:
+    java.lang.String code
+    java.io.File myFile
+    java.io.File myFile1
+    java.io.File myFile2
+    android.widget.TextView t5
+    java.lang.Number[] finalval
+    java.lang.String ssid
+    android.widget.TextView t
+com.example.sensormanagement.WifiGraphActivity:
+    java.lang.Number[] finalval
+    java.lang.String ssid
+com.google.gson.Cache:
+    public abstract java.lang.Object removeElement(java.lang.Object)
+com.google.gson.DefaultConstructorAllocator:
+    42:42:final boolean isInCache(java.lang.Class)
+com.google.gson.DefaultTypeAdapters:
+    61:1034:DefaultTypeAdapters()
+    251:251:static com.google.gson.ParameterizedTypeHandlerMap getDefaultSerializers()
+com.google.gson.DefaultTypeAdapters$DefaultDateTypeAdapter:
+    322:323:DefaultTypeAdapters$DefaultDateTypeAdapter(int)
+com.google.gson.DefaultTypeAdapters$GregorianCalendarTypeAdapter:
+    private static final java.lang.String YEAR
+    private static final java.lang.String MONTH
+    private static final java.lang.String DAY_OF_MONTH
+    private static final java.lang.String HOUR_OF_DAY
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+com.google.gson.DelegatingJsonElementVisitor
+com.google.gson.FieldAttributes:
+    private static final java.lang.String MAX_CACHE_PROPERTY_NAME
+com.google.gson.Gson:
+    static final boolean DEFAULT_JSON_NON_EXECUTABLE
+    private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
+com.google.gson.JsonArray:
+    70:71:void reverse()
+com.google.gson.JsonElementVisitor
+com.google.gson.JsonTreeNavigator
+com.google.gson.LruCache:
+    50:50:public synchronized java.lang.Object removeElement(java.lang.Object)
+com.google.gson.MemoryRefStack:
+    55:55:public boolean isEmpty()
+    65:65:public com.google.gson.ObjectTypePair peek()
+com.google.gson.ObjectTypePair:
+    142:142:public boolean isPreserveType()
+com.google.gson.Primitives:
+    34:34:private Primitives()
+    82:82:public static boolean isWrapperType(java.lang.Class)
+com.google.gson.Streams:
+    30:153:Streams()
+com.google.gson.UpperCaseNamingPolicy
+com.google.gson.VersionConstants
+net.goui.util.MTRandom:
+    private static final int UPPER_MASK
+    private static final int LOWER_MASK
+    private static final int N
+    private static final int M
+    private static final int MAGIC_FACTOR1
+    private static final int MAGIC_FACTOR2
+    private static final int MAGIC_FACTOR3
+    private static final int MAGIC_MASK1
+    private static final int MAGIC_MASK2
+    private static final int MAGIC_SEED
+    private static final long DEFAULT_SEED
+org.apache.commons.logging.LogFactory:
+    private static final java.lang.String WEAK_HASHTABLE_CLASSNAME
+org.apache.commons.logging.impl.LogFactoryImpl:
+    private static final java.lang.String LOGGING_IMPL_LOG4J_LOGGER
+    private static final java.lang.String LOGGING_IMPL_JDK14_LOGGER
+    private static final java.lang.String LOGGING_IMPL_LUMBERJACK_LOGGER
+    private static final java.lang.String LOGGING_IMPL_SIMPLE_LOGGER
+    private static final java.lang.String PKG_IMPL
+org.apache.commons.logging.impl.WeakHashtable:
+    private static final int MAX_CHANGES_BEFORE_PURGE
+    private static final int PARTIAL_PURGE_COUNT
+org.apache.http.client.protocol.RequestClientConnControl:
+    private static final java.lang.String PROXY_CONN_DIRECTIVE
+org.apache.http.client.utils.Rfc3492Idn:
+    private static final int base
+    private static final int tmin
+    private static final int tmax
+    private static final int skew
+    private static final int damp
+    private static final int initial_bias
+    private static final int initial_n
+    private static final char delimiter
+    private static final java.lang.String ACE_PREFIX
+org.apache.http.client.utils.URLEncodedUtils:
+    private static final java.lang.String PARAMETER_SEPARATOR
+    private static final java.lang.String NAME_VALUE_SEPARATOR
+org.apache.http.impl.auth.DigestScheme:
+    private static final java.lang.String NC
+    private static final int QOP_MISSING
+    private static final int QOP_AUTH_INT
+    private static final int QOP_AUTH
+org.apache.http.impl.client.DefaultRedirectHandler:
+    private static final java.lang.String REDIRECT_LOCATIONS
+org.apache.http.impl.cookie.DateUtils$DateFormatHolder:
+    213:213:DateUtils$DateFormatHolder()
+org.apache.http.impl.cookie.PublicSuffixListParser:
+    private static final int MAX_LINE_LEN
+    53:55:PublicSuffixListParser(org.apache.http.impl.cookie.PublicSuffixFilter)
+org.hermit.android.core.HelpActivity:
+    private static final int FPAR
+    private static final int WCON
+org.hermit.android.core.OneTimeDialog:
+    private static final java.lang.String PREF_PREFIX
+org.hermit.android.core.SurfaceRunner:
+    private static final java.lang.String TAG
+    private static final int ENABLE_SURFACE
+    private static final int ENABLE_SIZE
+    private static final int ENABLE_RESUMED
+    private static final int ENABLE_STARTED
+    private static final int ENABLE_FOCUSED
+    private static final int ENABLE_ALL
+    private static final int STATS_UPDATE
+org.hermit.android.core.SurfaceRunner$LoopTicker:
+    private static final int MSG_TICK
+    private static final int MSG_ABORT
+org.hermit.android.core.SurfaceRunner$Ticker:
+    public abstract void run()
+org.hermit.android.instruments.AudioAnalyser:
+    private static final java.lang.String TAG
+org.hermit.android.instruments.Gauge:
+    private static final float MIN_TEXT
+    private static final java.lang.String TAG
+org.hermit.android.instruments.Instrument:
+    private static final java.lang.String TAG
+org.hermit.android.instruments.InstrumentSurface:
+    private static final java.lang.String TAG
+org.hermit.android.instruments.PowerGauge:
+    private static final java.lang.String TAG
+    private static final int METER_PEAKS
+    private static final int METER_PEAK_TIME
+    private static final int METER_AVERAGE_COUNT
+    private static final int METER_POWER_COL
+    private static final int METER_AVERAGE_COL
+    private static final int METER_PEAK_COL
+    359:399:private final void calculatePeaks(long,float,float)
+org.hermit.android.instruments.SonagramGauge:
+    private static final java.lang.String TAG
+    private static final float RANGE_BELS
+org.hermit.android.instruments.SpectrumGauge:
+    private static final java.lang.String TAG
+    private static final float RANGE_BELS
+    private static final boolean logFreqScale
+    242:284:private void logGraph(float[],android.graphics.Canvas,android.graphics.Paint)
+    288:288:private final double log2(double)
+org.hermit.android.instruments.TextGauge:
+    private static final java.lang.String TAG
+org.hermit.android.instruments.WaveformGauge:
+    private static final java.lang.String TAG
+org.hermit.android.io.AudioReader:
+    private static final java.lang.String TAG
+org.hermit.android.net.CachedFile:
+    private static final java.lang.String TAG
+    private static final long MIN_CHECK_INTERVAL
+    private static final long REFRESH_INTERVAL
+    private static final long FETCH_TIMEOUT
+org.hermit.android.net.FileFetcher:
+    private static final java.lang.String TAG
+org.hermit.android.net.TableFetcher:
+    private static final java.lang.String TAG
+    67:70:TableFetcher(java.net.URL,org.hermit.android.net.WebFetcher$Listener,long,boolean,java.lang.String[],long)
+org.hermit.android.net.WebBasedData:
+    private static final java.lang.String TAG
+    private static final long MIN_CHECK_INTERVAL
+    private static final long REFRESH_INTERVAL
+    private static final long MAX_SAMPLES
+    private static final long FETCH_TIMEOUT
+org.hermit.android.net.WebFetcher:
+    private static final java.lang.String TAG
+org.hermit.android.provider.DbRow:
+    78:79:void getValues(android.content.ContentValues)
+org.hermit.android.provider.DbSchema:
+    static final java.lang.String TAG
+    private static final int BACKUP_MAGIC
+    private static final int BACKUP_VERSION
+    private static final int ROW_MAGIC
+    private static final int ROW_END
+org.hermit.android.provider.TableProvider:
+    static final java.lang.String TAG
+org.hermit.android.sound.Effect:
+    75:75:final int getSoundId()
+    86:87:final void setSoundId(int)
+    116:116:final float getPlayVol()
+    126:127:final void setPlayVol(float)
+    167:168:void play(float,boolean)
+org.hermit.android.sound.Player:
+    private static final java.lang.String TAG
+org.hermit.android.utils.Ticker:
+    private static final java.lang.String TAG
+    private static final int DAY_SECS
+    private static final boolean DBG
+org.hermit.android.widgets.LinedEditText:
+    private static final int LINE_COLOUR
+org.hermit.android.widgets.MultistateImageButton:
+    private static final java.lang.String TAG
+org.hermit.android.widgets.TimeoutPicker$SavedState:
+    275:279:private TimeoutPicker$SavedState(android.os.Parcel)
+org.hermit.android.widgets.TimeoutPickerDialog:
+    private static final java.lang.String MILLIS
+org.hermit.astro.Body:
+    private static final double KEPLER_TOLERANCE
+    private static final int KEPLER_MAX_ITER
+    946:959:static double kepler(double,double)
+org.hermit.astro.Instant:
+    private static final java.lang.String TAG
+org.hermit.astro.Moon:
+    private static final java.lang.String TAG
+org.hermit.astro.Observation:
+    private static final java.lang.String TAG
+org.hermit.dsp.FFTTransformer:
+    private static final float FUDGE
+org.hermit.dsp.SignalPower:
+    private static final float MAX_16_BIT
+    private static final float FUDGE
+org.hermit.dsp.Window:
+    private static final double BH_A0
+    private static final double BH_A1
+    private static final double BH_A2
+    private static final double BH_A3
+org.hermit.geo.Distance:
+    private static final double FOOT
+    private static final double NAUTICAL_MILE
+org.hermit.geo.PointOfInterest:
+    private static final double HALFPI
+    private static final double NPOLE
+    private static final double EQUATOR
+    private static final double SPOLE
+    private static final double DISTANCE_FAR
+    private static final double DISTANCE_NEAR
+    private static final double DISTANCE_THRESH
+org.hermit.geo.PointOfInterest$LON:
+    228:232:PointOfInterest$LON(double,java.lang.String)
+org.hermit.geo.VincentyCalculator:
+    private static final double TWO_PI
+    private static final double FP_TOLERANCE
+    private static final double GEO_TOLERANCE
+    private static final double PRECISION_LIMIT
+    private static final double NODAL_LIMIT
+org.hermit.geometry.cluster.FuzzyClusterer:
+    private static final double M
+org.hermit.geometry.voronoi.DataNode:
+    34:36:public DataNode(org.hermit.geometry.voronoi.Event)
+org.hermit.geometry.voronoi.Node:
+    79:82:public static org.hermit.geometry.voronoi.DataNode FirstDataNode(org.hermit.geometry.voronoi.Node)
+    248:262:public void dump(java.lang.String)
+org.hermit.geometry.voronoi.VoronoiEdge:
+    54:54:boolean isInfinite()
+org.hermit.test.geo.PoiTest:
+    private static final double HALFPI
+    private static final double NPOLE
+    private static final double EQUATOR
+    private static final double SPOLE
+org.json.simple.parser.Yylex:
+    public static final int YYEOF
+    private static final int ZZ_BUFFERSIZE
+    public static final int YYINITIAL
+    public static final int STRING_BEGIN
+    private static final java.lang.String ZZ_CMAP_PACKED
+    private static final java.lang.String ZZ_ACTION_PACKED_0
+    private static final java.lang.String ZZ_ROWMAP_PACKED_0
+    private static final int ZZ_UNKNOWN_ERROR
+    private static final int ZZ_NO_MATCH
+    private static final int ZZ_PUSHBACK_2BIG
+    private static final java.lang.String ZZ_ATTRIBUTE_PACKED_0
+    Yylex(java.io.InputStream)
+    public final void yyclose()
+    public final int yystate()
+    public final int yylength()
+    public void yypushback(int)
+utility.Battery:
+    android.content.Context context
+    12:15:Battery(android.content.Context)
+utility.Battery$UnregisterTask

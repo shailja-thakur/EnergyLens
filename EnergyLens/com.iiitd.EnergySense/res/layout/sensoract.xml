@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+    
+
+    <!-- Included header.xml here -->
+	<ViewStub android:id="@+id/vsHeader" 
+	    android:inflatedId="@+id/header" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout="@layout/sactheader" />
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="6dip">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        
+        <Button android:id="@+id/main_btn_eclair"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/owned"
+            android:drawableTop="@drawable/device"/>
+        
+        <Button android:id="@+id/main_btn_froyo"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/shared"
+            android:drawableTop="@drawable/share"/>
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="30sp"
+         android:layout_weight="1"
+         android:orientation="horizontal" >
+  
+		
+    
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="30sp"
+         android:layout_weight="1"
+         android:orientation="horizontal" >
+    
+    		
+    
+    
+    </LinearLayout>
+
+</LinearLayout>
+
+	 <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+					
+
+</LinearLayout>
+
+	 <include layout="@layout/footer_layout"/>
+
+</LinearLayout>

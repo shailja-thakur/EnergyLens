@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="lib" path="/home/shailja/trunk/MobiShare/libs/httpmime-4.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/shailja/workspace/sensors/libs/gson-1.7.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/shailja/workspace/in.wptrafficanalyzer.androidplotdemo.MainActivity/libs/Androidplot-core-0.5.0-release.jar"/>
+	<classpathentry exported="true" kind="src" path="/HermitAndroid"/>
+	<classpathentry exported="true" kind="src" path="/HermitLibrary"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="src" path="/funf"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

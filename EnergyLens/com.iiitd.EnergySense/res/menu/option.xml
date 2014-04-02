@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+  <item android:id="@+id/upload"
+    android:title="Upload"
+    android:icon="@drawable/upload"   
+    
+    android:showAsAction="ifRoom"/>
+  <item android:id="@+id/collect"
+    android:title="Collect"
+    android:icon="@drawable/collect"
+    android:showAsAction="ifRoom|withText"/>
+  
+  
+  
+  <item android:id="@+id/setting"
+    android:title="Settings"
+    android:icon="@drawable/setting"
+    android:showAsAction="ifRoom|withText"/>
+</menu>

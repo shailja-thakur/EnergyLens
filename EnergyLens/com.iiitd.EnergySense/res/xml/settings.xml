@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     
+       android:key="preference_screen"
+     
+        >
+        
+    <PreferenceCategory 
+        android:title="Apartment/Room No"
+        >
+        
+        <EditTextPreference
+            
+            android:key="uniqueno"
+            android:title="Apartment/Room No"
+            android:summary="ENter the unique apartment/room no to which the user belongs to"
+            />
+     <ListPreference
+                android:key="type"
+                android:title="Type"
+                android:summary="Whether the data is to be collected for a 1BHK/3BHK faculty apartment or in a hostel room"
+                android:entries="@array/prefs_type_entries"
+                android:entryValues="@array/prefs_type_values"
+                android:dialogTitle="Type"
+                android:defaultValue="room"
+                />
+            
+    </PreferenceCategory>
+ <PreferenceCategory
+   android:title="Alarm Settings"
+  
+ >
+   <!--  
+  <com.example.sensormanagement.SeekBarPreference  
+                
+                android:key="wakeup"
+                android:defaultValue="30"
+                android:title="WakeUp Time"
+                android:summary="wake every n seconds"
+                 
+                />               
+                 
+  <com.example.sensormanagement.SeekBarPreference  
+                
+                android:key="sample"
+                android:defaultValue="3"
+                android:title="Sample Time"
+                android:summary="sample every n seconds"
+                 
+                />               
+                
+  -->
+  
+  <com.example.sensormanagement.SeekBarPreferences
+            android:key="wakeup"
+                android:title="Interval"
+                android:summary="repeatedly all the sensors wake up every n seconds collects data and go to sleep again"
+                android:defaultValue="20"
+                android:max="200"
+               
+               
+               
+            />
+  
+  <com.example.sensormanagement.SeekBarPreferences
+            android:key="sample"
+                android:title="Duration"
+                android:summary="sample for m seconds"
+                android:defaultValue="10"
+                android:max="100"
+               
+            />
+ </PreferenceCategory>
+ 
+<PreferenceCategory
+   android:title="Upload Settings"
+   
+   
+ >
+  
+<com.example.sensormanagement.SeekBarPreferences
+            android:key="upload"
+                android:title="Upload Time"
+                android:summary="upload every v seconds "
+                android:defaultValue="300"
+                android:max="1000"
+               
+            />      
+ 
+  <ListPreference
+                android:key="networkmode"
+                android:title="Network Mode"
+                android:summary="Keep one of the mode enabled and checks periodically whether the mode set is enabled on the device or not"
+                android:entries="@array/prefs_network_mode"
+                android:entryValues="@array/prefs_network_values"
+                android:dialogTitle="Network Mode"
+                android:defaultValue="Wifi" />
+ 
+  </PreferenceCategory>
+  
+
+<!--  
+<PreferenceCategory
+   android:title="Annotations"
+   
+ >
+  
+    <ListPreference
+                android:key="accelerometer"
+                android:title="Accelerometer"
+                android:summary="The selected annotation gets logged with accl data for analysis purpose"
+                android:entries="@array/prefs_accl_label"
+                android:entryValues="@array/prefs_accl_values"
+                android:dialogTitle="Accl Label"
+                android:defaultValue="Stationary" />
+    
+    <ListPreference
+                android:key="wifi1"
+                android:title="Wifi 1BHK"
+                android:summary="The selected annotation gets logged with wifi data for 1BHK for analysis purpose"
+                android:entries="@array/prefs_wifi_1BHK_labels"
+                android:entryValues="@array/prefs_wifi_1BHK_values"
+                android:dialogTitle="Wifi Label"
+                android:defaultValue="Dining" />
+    
+    <ListPreference
+                android:key="wifi3"
+                android:title="Wifi 3BHK"
+                android:summary="The selected annotation gets logged with wifi data for 3BHK analysis purpose"
+                android:entries="@array/prefs_wifi_3BHK_labels"
+                android:entryValues="@array/prefs_wifi_3BHK_values"
+                android:dialogTitle="Wifi Label"
+                android:defaultValue="Dining" />
+    
+    
+   </PreferenceCategory>
+    -->
+    
+         <PreferenceCategory android:title="@string/prefs_sensors">  
+         
+         
+        <ListPreference
+                android:key="acclrate"
+                android:title="@string/prefs_acclrate"
+                android:summary="@string/prefs_acclrate_summary"
+                android:entries="@array/prefs_acclrate_entries"
+                android:entryValues="@array/prefs_acclrate_values"
+                android:dialogTitle="@string/prefs_acclrate_title"
+                android:defaultValue="SENSOR_DELAY_NORMAL" />
+ 
+       
+        
+      
+
+        <ListPreference
+                android:key="sampleRate"
+                android:title="@string/prefs_sample"
+                android:summary="@string/prefs_sample_summary"
+                android:entries="@array/prefs_sample_entries"
+                android:entryValues="@array/prefs_sample_values"
+                android:dialogTitle="@string/prefs_sample_title"
+                android:defaultValue="8000" />
+
+      
+    	</PreferenceCategory>
+  
+   
+ 
+     
+     
+     
+
+    
+ 
+  
+
+</PreferenceScreen>

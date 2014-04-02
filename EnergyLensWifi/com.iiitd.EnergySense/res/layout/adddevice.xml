@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+       
+       >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newdevice"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0b84aa" />
+
+	<ScrollView android:id="@+id/ScrollView01"
+				android:layout_width="fill_parent"
+				android:layout_height="900dp">
+
+	<LinearLayout
+	    android:id="@+id/LinearLayout02"
+	    android:layout_width="wrap_content"
+	    android:layout_height="30dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/devicename"
+	       android:textColor="#0b84aa" />
+
+	    <EditText
+	        android:id="@+id/dev_name"
+	        android:layout_width="312dp"
+	        android:layout_height="50dp"
+	        android:layout_weight="0.00"
+	        android:inputType="text" 
+	       >
+
+	       <requestFocus />
+	       </EditText>
+
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ip"
+	        android:textColor="#0b84aa" />
+
+	    <EditText
+	        android:id="@+id/dev_ip"
+	        android:layout_width="match_parent"
+	       
+	        android:layout_height="wrap_content"/>
+
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/location"
+	        android:textColor="#0b84aa" />
+
+	    <EditText
+	        android:id="@+id/dev_loc"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	      
+	        android:inputType="textPostalAddress" />
+
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tag"
+	        android:textColor="#0b84aa" />
+
+	    <EditText
+	        android:id="@+id/dev_tag"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        />
+
+	    <TextView
+	        android:id="@+id/textView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	       
+	         android:textColor="#0b84aa" />
+
+	    <Button
+	        android:id="@+id/btn_next"
+	        android:layout_width="171dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/next"
+	        android:textColor="#0b84aa" />
+
+	</LinearLayout>
+
+</ScrollView>
+    </LinearLayout>

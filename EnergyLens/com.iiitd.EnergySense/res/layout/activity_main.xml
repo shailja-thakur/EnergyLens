@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <!-- Included header.xml here -->
+
+    <ViewStub
+        android:id="@+id/vsHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/header" />
+
+    <RelativeLayout
+        android:id="@+id/aboutLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/main_btn_gingerbread"
+             style="@style/HomeButton"
+             android:layout_width="179dp"
+             android:layout_height="84dp"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:drawableTop="@drawable/wifi1"
+             android:onClick="onButtonClicker"
+             android:text="@string/GingerbreadActivityTitle" />
+
+         <CheckBox
+             android:id="@+id/checkBox3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="50dp"
+             android:layout_toRightOf="@+id/main_btn_gingerbread"
+             android:scaleX="0.70"
+             android:scaleY="0.70" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aboutLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/main_btn_eclair"
+            style="@style/HomeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:drawableTop="@drawable/accl3"
+            android:onClick="onButtonClicker"
+            android:text="@string/EclairActivityTitle" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="56dp"
+            android:scaleX="0.70"
+            android:scaleY="0.70" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aboutLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+<Button
+    android:id="@+id/main_btn_jellybean"
+    style="@style/HomeButton"
+    android:layout_width="168dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_weight="0.27"
+    android:drawableTop="@drawable/sound"
+    android:onClick="onButtonClicker"
+    android:text="@string/JellyBeanActivityTitle" />
+
+<CheckBox
+    android:id="@+id/checkBox6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="53dp"
+    android:scaleX="0.70"
+    android:scaleY="0.70" />
+
+    </RelativeLayout>
+<RelativeLayout
+        android:id="@+id/aboutLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    
+
+</RelativeLayout>
+</LinearLayout>

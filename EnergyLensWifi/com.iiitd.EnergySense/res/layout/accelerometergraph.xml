@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#355689">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    
+    <LinearLayout android:id="@+id/locationLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<RelativeLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+
+   
+    
+    </RelativeLayout>
+    </LinearLayout>
+    <com.androidplot.xy.XYPlot
+    android:id="@+id/aprLevelsPlot"
+    
+    
+    
+    android:layout_width="fill_parent"
+        android:layout_height="200dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    title=" "
+    />
+ 
+</LinearLayout>
+</ScrollView>
+    

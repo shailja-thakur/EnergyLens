@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	
+
+	<TableLayout android:layout_height="wrap_content"
+		android:stretchColumns="*" android:layout_width="match_parent"
+		android:padding="3dp" android:id="@+id/tableLayout1">
+		<TableRow android:id="@+id/tableRow1" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<LinearLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<ImageView android:id="@+id/aboutImageView"
+					android:layout_gravity="center" android:layout_height="wrap_content"
+					android:onClick="clickaccl"
+					android:layout_width="fill_parent" android:src="@drawable/accl2"></ImageView>
+				
+				
+				<TextView android:text="Accelerometer" android:id="@+id/aboutMeTextView"
+					android:layout_gravity="center" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dp">
+				</TextView>
+				
+			</LinearLayout>
+
+			<LinearLayout android:id="@+id/locationLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<ImageView android:id="@+id/locationImageView"
+					android:layout_gravity="center" android:layout_height="wrap_content"
+					android:onClick="showLocation"
+					android:layout_width="fill_parent" android:src="@drawable/light"></ImageView>
+				<TextView android:text="Light" android:id="@+id/locationTextView"
+					android:layout_gravity="center" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dp">
+				</TextView>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/twitterLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				
+				<ImageView android:layout_width="wrap_content"
+					android:src="@drawable/wifi" android:layout_gravity="center"
+					android:onClick="clickwifi"
+					android:id="@+id/twitterImageView" android:layout_height="wrap_content">
+				</ImageView>
+				<TextView android:text="WiFi" android:id="@+id/twitterTextView"
+					android:layout_gravity="center" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dp">
+				</TextView>
+			</LinearLayout>
+			
+		</TableRow>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<TableRow android:id="@+id/tableRow3" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<LinearLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<RelativeLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+
+			<CheckBox
+			    android:id="@+id/checkBox1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentTop="true"
+			    android:layout_centerHorizontal="true" />
+
+				</RelativeLayout>
+				</LinearLayout>
+				
+				
+
+			<LinearLayout android:id="@+id/locationLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<RelativeLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<CheckBox
+				    android:id="@+id/checkBox2"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentTop="true"
+				    android:layout_centerHorizontal="true" />
+
+				</RelativeLayout>
+			</LinearLayout>
+			
+			<LinearLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				
+			<RelativeLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+
+			<CheckBox
+			    android:id="@+id/checkBox3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentTop="true"
+			    android:layout_centerHorizontal="true" />
+
+				</RelativeLayout>
+				</LinearLayout>
+			
+		</TableRow>
+		
+	
+		
+		<TableRow android:id="@+id/tableRow2" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			
+			
+			<LinearLayout android:id="@+id/locationLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<ImageView android:id="@+id/locationImageView"
+					android:layout_gravity="center" android:layout_height="wrap_content"
+					android:onClick="clickcellid"
+					android:layout_width="fill_parent" android:src="@drawable/cell"></ImageView>
+				<TextView android:text="CellID" android:id="@+id/locationTextView"
+					android:layout_gravity="center" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dp">
+				</TextView>
+			</LinearLayout>
+			
+			
+			<LinearLayout android:id="@+id/twitterLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				
+				<ImageView android:layout_width="wrap_content"
+					android:src="@drawable/proximate" android:layout_gravity="center"
+					android:onClick="clickproximity"
+					android:id="@+id/twitterImageView" android:layout_height="wrap_content">
+				</ImageView>
+				<TextView android:text="Proximity" android:id="@+id/twitterTextView"
+					android:layout_gravity="center" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dp">
+				</TextView>
+			</LinearLayout>
+			
+			<LinearLayout android:id="@+id/locationLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<ImageView android:id="@+id/locationImageView"
+					android:layout_gravity="center" android:layout_height="wrap_content"
+					android:onClick="showLocation"
+					android:layout_width="fill_parent" android:src="@drawable/sound"></ImageView>
+				<TextView android:text="Sound" android:id="@+id/locationTextView"
+					android:layout_gravity="center" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15dp">
+				</TextView>
+			</LinearLayout>
+			
+		</TableRow>
+		
+		
+		
+		
+		
+		<TableRow android:id="@+id/tableRow3" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			
+
+			<LinearLayout android:id="@+id/locationLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<RelativeLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<CheckBox
+				    android:id="@+id/checkBox4"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentTop="true"
+				    android:layout_centerHorizontal="true" />
+
+					</RelativeLayout>
+			</LinearLayout>
+			
+			<LinearLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				
+			<RelativeLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+
+			<CheckBox
+			    android:id="@+id/checkBox5"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentTop="true"
+			    android:layout_centerHorizontal="true" />
+
+				</RelativeLayout>
+				</LinearLayout>
+
+			<LinearLayout android:id="@+id/locationLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<RelativeLayout android:id="@+id/aboutLayout"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<CheckBox
+				    android:id="@+id/checkBox6"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentTop="true"
+				    android:layout_centerHorizontal="true" />
+
+				</RelativeLayout>
+			</LinearLayout>
+			
+			
+		</TableRow>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+	</TableLayout>	
+		
+	
+	
+	</ScrollView>
+
+</LinearLayout>

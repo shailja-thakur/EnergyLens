@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <!-- Entry names for the sample rate menu. -->
+    <string-array name="prefs_type_entries">
+        <item >Apartment(1BHK)</item>
+        <item>Apartment(3BHK)</item>
+        <item>Hostel Room</item>
+    </string-array>
+    
+    <string-array name="prefs_type_values">
+        <item>1BHK</item>
+        <item>3BHK</item>
+        <item>room</item>
+    </string-array>
+    
+     <string-array name="prefs_acclrate_entries">
+        <item>Fastest</item>
+        <item>Game</item>
+        <item>Normal</item>
+        <item>UI</item>
+    </string-array>
+     <string-array name="prefs_acclrate_values">
+        <item>SENSOR_DELAY_FASTEST</item>
+        <item>SENSOR_DELAY_GAME</item>
+        <item>SENSOR_DELAY_NORMAL</item>
+        <item>SENSOR_DELAY_UI</item>
+    </string-array>
+    <string-array name="prefs_sample_entries">
+        <item>8,000  </item>
+        <item>16,000 </item>
+        <item>22,050 </item>
+        <item>44,100 </item>
+    </string-array>
+
+    <!-- Values for the sample rate menu. -->
+    <string-array name="prefs_sample_values">
+        <item>8000</item>  
+        <item>16000</item>
+        <item>22050</item>
+        <item>44100</item>
+    </string-array>
+    
+    <!-- Entry names for the network mode. -->
+    <string-array name="prefs_network_mode">
+        <item >Wifi</item>
+        <item >2G/3G/EDGE</item>
+    </string-array>
+    
+    <!-- Values for the network mode -->
+    <string-array name="prefs_network_values">
+        <item >Wifi</item>
+        <item >Data Connection</item>
+    </string-array>
+    
+    <!-- Entry names for accl labels -->
+<string-array name="prefs_accl_label">
+    <item>Stationary</item>
+    <item>Moving</item>
+    <item>None</item>
+</string-array> 
+
+<!-- Values for accl labels -->
+<string-array name="prefs_accl_values">
+    <item>Stationary</item>
+    <item>Moving</item>
+    <item>None</item>
+ </string-array>    
+ 
+
+    <!-- Entry names for wifi labels of 1 BHK -->
+
+<string-array name="prefs_wifi_1BHK_labels">
+    <item>Kitchen</item>
+    <item>Dining Romm</item>
+    <item>BedRoom</item>
+   <item>None</item>
+</string-array>
+
+<!-- Values for wifi labels of 1 BHK -->
+<string-array name="prefs_wifi_1BHK_values">
+     <item>Kitchen</item>
+    <item>Dining Room</item>
+    <item>BedRoom</item>
+    <item>None</item>
+</string-array>
+
+<!-- Entry names for wifi labels of 3 BHK  -->
+<string-array name="prefs_wifi_3BHK_labels">
+    
+    <item>Kitchen</item>
+    <item>Dining Room</item>
+    <item>Study</item>
+    <item >Bedroom1</item>
+    <item>Bedroom2</item>
+    <item>Bedroom3</item>
+    <item>None</item>
+</string-array>
+
+
+<!-- Values for wifi labels of 3BHK -->
+
+<string-array name="prefs_wifi_3BHK_values">
+    <item>Kitchen</item>
+    <item>Dining Room</item>
+    <item>Study</item>
+    <item >Bedroom1</item>
+    <item>Bedroom2</item>
+    <item>Bedroom3</item>
+    <item>None</item>
+</string-array>
+
+<!-- Entry names for audio labels -->
+<string-array name="prefs_audio_labels">
+    <item>Fan</item>
+    <item>AC</item>
+    <item>Microwave</item>
+    <item>TV</item>
+    <item>Computer</item>
+    <item>Printer</item>
+    <item>Washing Machine</item>
+    <item>None</item>
+</string-array>
+
+<!-- Values for audio labels -->
+<string-array name="prefs_audio_values">
+    <item>Fan</item>
+    <item>AC</item>
+    <item>Microwave</item>
+    <item>TV</item>
+    <item>Computer</item>
+    <item>Printer</item>
+    <item>Washing Machine</item>
+    <item>None</item>
+</string-array>
+
+    <!-- Entry names for the block size menu. -->
+    <string-array name="prefs_block_entries">
+        <item>128 samples</item>
+        <item>256 samples</item>
+        <item>512 samples</item>
+        <item>1024 samples</item>  
+    </string-array>
+
+    <!-- Values for the block size menu. -->
+    <string-array name="prefs_block_values">
+        <item>128</item>  
+        <item>256</item>  
+        <item>512</item>
+        <item>1024</item>
+    </string-array>
+      
+    <!-- Entry names for the window function menu. -->
+    <string-array name="prefs_window_entries">
+        <item>No windowing</item>
+        <item>Blackman-Harris (dflt)</item>
+        <item>Gauss</item>  
+        <item>Weedon-Gauss</item>  
+    </string-array>
+
+    <!-- Values for the window function menu. -->
+    <string-array name="prefs_window_values">
+        <item>RECTANGULAR</item>  
+        <item>BLACKMAN_HARRIS</item>
+        <item>GAUSS</item>
+        <item>WEEDON_GAUSS</item>
+    </string-array>
+    
+    <!-- Entry names for the decimation menu. -->
+    <string-array name="prefs_decimate_entries">
+        <item>Process all</item>
+        <item>Process 1 in 2</item>
+        <item>Process 1 in 3</item>  
+        <item>Process 1 in 4</item>  
+    </string-array>
+
+    <!-- Values for the decimation menu. -->
+    <string-array name="prefs_decimate_values">
+        <item>1</item>  
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    
+    <!-- Entry names for the histogram averaging menu. -->
+    <string-array name="prefs_average_entries">
+        <item>None</item>
+        <item>Fast</item>
+        <item>Slow</item>  
+    </string-array>
+    
+    <!-- Values for the histogram averaging menu. -->
+    <string-array name="prefs_average_values">
+        <item>1</item>
+        <item>4</item>  
+        <item>12</item>
+    </string-array>
+
+    <!-- Entry names for the histogram averaging menu. -->
+    <string-array name="prefs_instruments_entries">
+        <item>Spectrum+Wave+Power</item>
+        
+    </string-array>
+
+    <!-- Values for the histogram averaging menu. -->
+    <string-array name="prefs_instruments_values">
+        <item>SPECTRUM_P_W</item>
+       
+    </string-array>
+    
+    <!-- Entry names for the screen orientation menu. -->
+    <string-array name="prefs_orient_entries">
+        <item>System default</item>
+        <item>Portrait</item>
+        <item>Landscape</item>  
+        <item>User preference</item>  
+        <item>Device orientation</item>  
+    </string-array>
+
+    <!-- Values for the screen orientation menu. -->
+    <string-array name="prefs_orient_values">
+        <item>-1</item>
+        <item>1</item>  
+        <item>0</item>
+        <item>2</item>  
+        <item>4</item>  
+    </string-array>
+    
+    
+    <!-- Help section titles. -->
+    <string-array name="help_titles">
+		<item></item>
+		<item>Display</item>
+		<item>Annotations</item>
+		<item>Menu</item>
+		<item>Settings</item>  
+		
+    </string-array>
+
+    <!-- Help section texts. -->
+    <string-array name="help_texts">
+    
+<item><b>EnergySense</b> is a data collection app for Android. It collects audio , wifi and accelerometer data.
+    Also , it displays accelerometer readings and wifi readings as a dynamic graph. 
+    
+Since microphone sensitivity varies between individual devices,
+let alone models, it\'s impossible to generate accurate sound
+level readings with this app; so all data should be taken
+with a pinch of salt.  Still, it may be interesting when used
+to compare sound readings at different locations.</item>
+			  
+<item>The display displays an analysis of the different location and movement statistics.
+      You can swipe the screen left or right, or use the settings menu, to switch
+between different configurations.\n\
+\n\
+
+</item>
+<item>
+   For the purpose of obtaining ground truth of the data, manual labelling of data can be  done by the user according
+   to the activities performed .Thus providing annotated 
+   data .
+The annotations available are:\n\
+\n\
+• The <b>Accelerometer label</b> this is used to label manually ; when user
+ puts the phone on table/stationary,"ON Table" annotation is selected by the user,
+and when the user picks up the phone in hand/moving ,"On User" annotation 
+is selected.\n\
+\n\
+• The <b>Audio Label</b> It is used to select the label from the list of labels already availalble
+, or a label can be added manually and selected according to the acoustics in the environment.\n\
+\n\
+• The <b>Wifi Label</b> is used to label the data when the user moves from one
+physical location to another. And correspondingly selects the annotations,which helps in forming 
+an accurate ground truth.\n\
+\n\
+</item>
+			  
+
+<item>The device\'s \"menu\" button pops up a menu containing a number
+of options:\n\
+• <b>Settings</b> takes you to the settings screen; see \"Settings\" below.\n\
+• <b>Help</b> displays this help.\n\
+• <b>About</b> displays an about box, with links to the license and
+the project home page.\n\
+• <b>Disclaimer</b> re-displays the one-time warning screen.\n\
+• <b>Exit</b> stops the application.</item>
+              
+<item>EnergySense has a number of user-configurable options in its Settings
+screen.  This screen is reached through the menu, as described under \"Menu\"
+above.  The available settings are detailed in the following sections.</item>
+
+
+
+    </string-array>
+        
+        
+    <!-- Section titles for the settings help. -->
+   
+
+</resources>
+
